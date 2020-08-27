@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Hollow Wines</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+        integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"
+        integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+    <link rel="icon" href="images/favicon.png">
+    <link
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<style>
+    .navbar {
+        border: 0px solid #BFBFBF;
+        box-shadow: 0px 1px 14px #d4d4d4;
+        text-align: center;
+        background: #ffffff !important;
+    }
+
+    .navbar-brand {
+        text-align: center;
+        background: #ffffff !important;
+        padding: 1rem;
+    }
+
+    .introHollow {
+        margin-top: 7.5rem;
+        text-align: center;
+        display: block;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .introHollow:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0.18;
+        background-image: url("images/grapes.jpg");
+        background-repeat: no-repeat;
+        background-position: 30% 0;
+        -ms-background-size: 70%;
+        padding-left: 20px;
+        padding-right: 20px;
+
+
+    }
+
+    .titleHollow {
+        padding-top: 9rem;
+        padding-bottom: 6rem;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeIn2 {
+        0% {
+            opacity: 0;
+        }
+
+        30% {
+            opacity: 0%
+        }
+
+        80% {
+            opacity: 50%;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeIn3 {
+        0% {
+            opacity: 0;
+        }
+
+        60% {
+            opacity: 0%
+        }
+
+        90% {
+            opacity: 80%;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .firstAnimate {
+        animation-name: fadeIn;
+        animation-delay: 0s;
+        animation-duration: 1.25s;
+    }
+
+    .secondAnimate {
+        animation-name: fadeIn2;
+        animation-delay: 0s;
+        animation-duration: 2.75s;
+    }
+
+    .thirdAnimate {
+        animation-name: fadeIn3;
+        animation-delay: 0s;
+        animation-duration: 4s;
+    }
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        color: #2a2d7c;
+        line-height: 4rem;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 21px;
+        font-weight: 400;
+    }
+
+    h3 {
+        font-family: 'montserrat', sans-serif;
+        font-size: 20px;
+    }
+
+   /* .black {
+        font-weight: 500;
+    }*/
+
+    .interActive {
+        padding: 3rem;
+    }
+
+    .btn-group-lg.btn,
+    .btn-lg {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 100%;
+        border-radius: 25px;
+
+
+    }
+
+    .btn-warning {
+        background: rgb(28, 30, 82);
+        background: linear-gradient(rgba(55, 59, 163, 1) 0%, rgba(42, 45, 124, 1) 87%, rgba(28, 30, 82, 1) 100%);
+
+    }
+
+    .buttonText {
+        color: white;
+    }
+
+    .purple {
+        color: #2a2d7c;
+        font-weight: 800;
+    }
+
+    .large {
+        font-size:21px;
+    }
+
+    .video {
+        padding-bottom: 3rem;
+    }
+
+    .small {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .center {
+        text-align: center;
+        padding-top: .5rem;
+    }
+
+    .backgroundPurple {
+        background-color: #2a2d7c; 
+    }
+</style>
+
+<body>
+    <nav class="navbar fixed-top navbar-light">
+        <a class="navbar-brand" href="#">
+            <img id="mainLogo" src="images/mainlogo.png" width="30%" class="centerLogo" alt="Hollow Wines">
+        </a>
+    </nav>
+    <div class="container introHollow justify-content-center">
+        <div class="row titleHollow justify-content-center">
+            <h1 class="firstAnimate">Sustainable & Clean California Wines</h1>
+            <br>
+            <h2 class="secondAnimate">Enjoy premium California wine made by small producers at a fraction of the price.
+            </h2>
+        </div>
+    </div>
+    <div class="container interActive thirdAnimate">
+        <div class="row">
+            <div class="col-md-6 video">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hblsRNdDTNs" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div id="point" class="col-md-6 justify-content-center">
+                <h3 class="purple center large">Why Hollow WInes?</h3>
+                <ul>
+                    <li class="pb-md-2 pt-md-3">
+                        <h2 class="black">Get $50+ bottles for a fraction of the price!</h2>
+                    </li>
+                    <li class="pb-md-2 pt-md-2">
+                        <h2 class="black">Low sulfur wines all under 50ppm!</h2>
+                    </li>
+                    <li class="pb-md-3 pt-md-2">
+                        <h2 class="black">All sustainably farmed in California</h2></li>
+                    </li>
+                </ul>
+                <a class="btn btn-lg btn-warning addtocart" href="index.html#buynow">
+                    <h3 class="buttonText">See our Selection</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Big Banner Under Logos -->
+    <!--<div class="container">
+        <h1 class="display-4"
+            style="background: #2a2d7c !important;color: #fff;border-radius: 4px;padding: 32px;box-shadow: 0px 0px 207px -31px #42daf5;">
+            <center>Customers Love Hollow Wines!</center>
+        </h1>
+    </div> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 p-2">
+                <dl class="pb-md-4">
+                    <h3 class="purple center">Independent Lab Results</h3>
+                    <h2 class="small"> Don't fall for other wineries that claim to have
+                        low sulphites, then pay the price later. We pay <a href="https://www.etslabs.com/home" target="_blank">ETS Laboratories</a>, the premier leader in enological testing, to guarantee our wines are clean.</h2>
+                </dl>
+                <dl class="pb-md-4">
+                    <h3 class="purple center">How We Work</h3>
+                    <h2 class="small">It is a simple issue of supply and demand. In 2016, California had severe draughts, so garagiste and small label winemakers were buying whatever they could afford to make excellent wine. In 2017, when the drought ended, there were massive influxes in grapes and winemakers were buying up more grapes. Unfortunately, even though the drought ended, no one is getting richer, so they can't sell their wine for premium prices without dropping their own price. So Hollow Wines was born! We can buy premium sustainable California Wine and sell it to you at a fraction of the cost!</h2>
+                </dl>
+                <dl class="pb-md-4">
+                    <h3 class="purple center">Why a Minimum of 6 Bottles?</h3> <h2 class="small">We are a small operation and, to be honest, in order to keep our prices down, we have to sell in bulk. We understand that everyone has a
+                    unique pallet. This is why our founder, Quinn Hobbs, makes himself available to chat with customers via his direct email. He is also happy to schedule 1-on-1 calls to help you find the perfect wine for you. Our company has new wines coming out every week so there is no incentive to try and sell you the wrong wine. It is our goal to keep you a happy customer for life! Email <a
+                        href="mailto: quinn@hollowwines.com">Quinn@hollowwines.com</a> or message
+                    us on @ <a href="https://facebook.com/hollowwines">Facebook</a> to get a quicker response.</h2>
+                </dl>
+
+                <!--<h5 class="mb-4 display-4" style="font-size:2em;">Over <b>1.5 Million Happy Customers</b></h5> -->
+                <a class="btn btn-lg btn-block btn-warning addtocart" href="index.html#buynow"> Get Hollow Wines</a>
+            </div>
+            <div id="" class="col-md-6 text-center backgoundPurple">
+                <p></p>
+                <p></p>
+                <img width="80%" height="" src="images/LabResults.jpg" alt="Hollow Wines Lab Results" />
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
