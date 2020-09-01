@@ -177,7 +177,7 @@
     .btn-lg {
         padding-left: 1rem;
         padding-right: 1rem;
-        width: 70%;
+        width: 60%;
         border-radius: 25px;
         text-align: center;
 
@@ -221,6 +221,17 @@
         background-color: #2a2d7c;
     }
 
+    .card-header {
+        background-color: #2a2d7c;
+        
+    }
+
+    .centerButton {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     .label {
         padding-left: 5rem;
@@ -230,6 +241,10 @@
 
     .wineText {
         padding-right: 5rem;
+    }
+
+    .buySection {
+        padding-top: 7rem;
     }
 
     @media (max-width: 576px) {
@@ -254,17 +269,18 @@
             padding-bottom: 4rem;
         }
 
-        .wineText{
-            text-align:center;
+        .wineText {
+            text-align: center;
             padding-right: 2rem;
             padding-left: 2rem;
-            padding-top:1rem;
+            padding-top: 1rem;
         }
+
         .label {
             padding-left: 2rem;
             padding-right: 2rem;
             padding-top: 2rem;
-    }
+        }
     }
 </style>
 
@@ -305,10 +321,11 @@
                     </li>
                     </li>
                 </ul>
-                <div class="col justify-content-center align-items-center"></div>
-                <a class="btn btn-lg btn-warning addtocart align-items-center" href="index.html#buynow">
-                    <h3 class="buttonText">Get Hollow Wines</h3>
-                </a>
+                <div class="centerButton">
+                    <a class="btn btn-lg btn-warning addtocart align-items-center" href="index.html#buynow">
+                        <h3 class="buttonText">Get Hollow Wines</h3>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -352,7 +369,9 @@
                 </dl>
 
                 <!--<h5 class="mb-4 display-4" style="font-size:2em;">Over <b>1.5 Million Happy Customers</b></h5> -->
-                <a class="btn btn-lg btn-block btn-warning addtocart" href="index.html#buynow"> Get Hollow Wines</a>
+                <a class="btn btn-lg btn-warning addtocart" href="index.html#buyNow">
+                    <h3 class="buttonText">Get Hollow Wines</h3>
+                </a>
             </div>
             <div id="" class="col-md-6 text-center backgoundPurple">
                 <p></p>
@@ -416,6 +435,91 @@
                     topped up from
                     carboys of the exact same wine! This fruit from the Santa Rita Hills AVA in Santa Barbara county
                     came out bright and beautiful. If you like high acid whites this is your wine!</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container buySection">
+        <div id="buynow" class="card-deck mb-3 text-center">
+
+            <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">2018 Tres Pinos Cabernet Sauvignon</h4>
+                </div>
+                <div class="card-body">
+                    <img width="80%" src="images/cab.png">
+                    <h3><br>Normally $45 A bottle</h3>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>
+                            <h2 style="color:red;">Just $100 for 6!</h2>
+                            <h3>Or 12 for $180!</h3>
+                        </li>
+                        <li style="margin-top: 18px;">Email Support</li>
+                        <li>Just $16.67 A BOTTLE</li>
+                        <li>Ships September 18th, 2020</li>
+                    </ul>
+                    <div class="centerButton">
+                        <a class="btn btn-lg btn-block btn-outline-primary"
+                            href="https://criticalsupplies.com/cart/32150154543188:1">Buy 6 Now!</a>
+                    </div>
+                    <div class="centerButton">
+                        <a class="btn btn-lg btn-block btn-outline-primary"
+                            style="background: linear-gradient(#ffc53f, #ff7d04) 0px 0px repeat scroll #ffc53f;color: white;text-align: center;"
+                            href="https://criticalsupplies.com/cart/32150154543188:3?discount=3PACKDISCOUNT">Buy 12
+                            Now!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-4 box-shadow text-black"
+                style="border: 4px solid #4146ce; box-shadow: 0px 0px 130px -15px #2a2d7c;">
+
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">2016 Paso Robles French Camp Chardonnay</h4>
+                </div>
+                <div class="card-body">
+                    <img width="80%" src="images/frenchcamp.png" />
+                    <h3><br>Normally $50 a bottle</h3>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>
+                            <h2 style="color:red;">Just $120 for 6</h2>
+                            <h3>Or 12 for $220</h3>
+                        </li>
+                        <li style="margin-top: 18px;">Email Support</li>
+                        <li>JUST $20 A BOTTLE!</li>
+                        <li>Ships September 18th, 2020</li>
+                    </ul>
+                    <a class="btn btn-lg btn-block btn-outline-primary"
+                        href="https://criticalsupplies.com/cart/32150154543188:1">Buy 6 Now!</a>
+                    <a class="btn btn-lg btn-block btn-outline-primary"
+                        style="background: linear-gradient(#ffc53f, #ff7d04) 0px 0px repeat scroll #ffc53f;color: white;text-align: center;"
+                        href="https://criticalsupplies.com/cart/32150154543188:3?discount=3PACKDISCOUNT">Buy 12 Now!</a>
+                </div>
+            </div>
+
+            <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 buttonText font-weight-normal">2016 Santa Rita Hills Gnesa Chardonnay</h4>
+                </div>
+                <div class="card-body">
+                    <img width="100%" src="images/gnesa.png" />
+                    <br>
+                    <h3>Normally $50 a bottle</h3>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>
+                            <h2 style="color:red;">Just $ 120 for 6!</h2>
+                            <h3>Or 12 for $220</h3>
+                        </li>
+                        <li style="margin-top: 20px;">Email Support</li>
+                        <li>JUST $20 A BOTTLE!</li>
+                        <li>Ships September 18th, 2020</li>
+                    </ul>
+                    <a class="btn btn-lg btn-block btn-outline-primary"
+                        href="https://criticalsupplies.com/cart/32150154543188:1">Buy 6 Now!</a>
+                    <a class="btn btn-lg btn-block btn-outline-primary"
+                        style="background: linear-gradient(#ffc53f, #ff7d04) 0px 0px repeat scroll #ffc53f;color: white;text-align: center;"
+                        href="https://criticalsupplies.com/cart/32150154543188:3?discount=3PACKDISCOUNT">Buy 12 Now!</a>
+                </div>
             </div>
         </div>
     </div>
