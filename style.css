@@ -187,8 +187,6 @@
         width: 60%;
         border-radius: 25px;
         text-align: center;
-
-
     }
 
     .btn-warning {
@@ -283,6 +281,19 @@
 
         h3 {}
 
+        .buttonText {
+            font-size: 12px;
+        }
+
+        .lgScreen {
+            display:none;
+        }
+    
+        .centerButton {
+            padding-bottom: 1.5rem;
+            padding-top: 1rem;
+        }
+
         .titleHollow {
             padding-top: 4rem;
             padding-bottom: 4rem;
@@ -299,6 +310,12 @@
             padding-left: 2rem;
             padding-right: 2rem;
             padding-top: 2rem;
+        }
+    }
+
+    @media (min-width: 577px) {
+        .smScreen {
+            display: none;
         }
     }
 
