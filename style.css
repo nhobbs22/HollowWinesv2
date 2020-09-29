@@ -57,7 +57,7 @@
     }
 
     .introHollow {
-        margin-top: 13rem;
+        margin-top: 12rem;
         text-align: center;
         display: block;
         position: relative;
@@ -313,11 +313,11 @@
         }
     }
 
-    @media (min-width: 577px) {
+   /* @media (min-width: 577px) {
         .smScreen {
             display: none;
         }
-    }
+    } */
 
     .wines {
         padding-top: 5rem;
