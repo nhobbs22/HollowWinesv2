@@ -12,33 +12,6 @@
         padding: 1rem;
     }
 
-    .introHollow {
-        margin-top: 7.5rem;
-        text-align: center;
-        display: block;
-        position: relative;
-        overflow: hidden;
-    }
-
-    .introHollow:before {
-        content: ' ';
-        display: block;
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 1;
-        opacity: 0.18;
-        background-image: url("images/grapes.jpg");
-        background-repeat: no-repeat;
-        background-position: 30% 0;
-        -ms-background-size: 70%;
-        padding-left: 20px;
-        padding-right: 20px;
-
-
-    }
 
     .titleHollow {
         padding-top: 9rem;

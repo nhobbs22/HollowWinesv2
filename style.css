@@ -1,324 +1,420 @@
+/*
 
-    /*.navbar {
-        border: 0px solid #BFBFBF;
-        box-shadow: 0px 1px 14px #d4d4d4;
-        text-align: center;
-        background: #ffffff !important;
-    }
+Table of Contents
+. Typography
+. Button Styling
+. Navigation 
+. Title/Carousel Container
+. Video/Get Hollow Wines Container
+. 3 Reasons Container
+. Wines Section
+. Buy Section
+. Animations
+. Media Queries
 
-    .navbar-brand {
-        text-align: center;
-        background: #ffffff !important;
-        padding: 1rem;
+/*-------------------------------Typography--------------------------------*/
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: #000;
+    line-height: 4rem;
+    font-weight: 700; 
+    color:#1A1C4D;
+    color: #171945;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    color: #2a2d7c;
+    line-height: 3rem;
+    font-weight: 700;
+}
+
+.purple {
+    color: #2a2d7c;
+}
+
+.large {
+    font-size: 21px;
+}
+
+.small {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.center {
+    text-align: center;
+    padding-top: .5rem;
+}
+
+.padding {
+    padding-bottom: 7px;
+}
+
+.headline {
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 2rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+/* .black {
+        font-weight: 500;
     }*/
+/*----------------------------------------Button Styling-------------------------------*/
+.btn-group-lg.btn,
+.btn-lg {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 200px;
+    border-radius: 25px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
 
-    /*navigation styling*/
-    .sub.col-2 {
+.btn-warning {
+    background:#442B94;
+    background: linear-gradient(rgba(55, 59, 163, 1) 0%, rgba(42, 45, 124, 1) 85%, rgba(28, 30, 82, 1) 100%);
+    background: linear-gradient(to bottom, #3232a6 55%, #060666 100%);
+    background: linear-gradient(rgba(79,82,179, 1) 0%, rgba(50,54,148, 1) 85%, rgba(38,41,112, 1) 100%);
+    border: solid 0px;
+    text-align: center;
+}
 
-        display: inline-flex;
-        
-        text-align: center;
-    }
+.buttonText {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center !important;
+    vertical-align: middle;
+}
+/*---------------------------Navigation------------------------------*/
+.navbar {
+    border: 0px solid #BFBFBF;
+    box-shadow: 0px 1px 14px #d4d4d4;
+    text-align: center;
+    background: #ffffff !important;
+}
 
-    .bg-primary {
-        background-color: #121335 !important;
-        border: 0px solid #BFBFBF;
-        box-shadow: 0px 3px 14px #d4d4d4;
-    }
+.navbar-brand {
+    text-align: center;
+    padding: 1rem;
+    background-color: #121335 !important;
+    background-color: #2A2D7D !important;
+    background-color: white !important;
+    
+}
 
-    .navbar.fixed-top.navbar-light.bg-light.align-items-center {
-        position: fixed;
-        padding: 2% 0px 10px 0px;
-        float: left;
-        background-color: white !important;
-    }
+.navbar.fixed-top.navbar-light.bg-light.align-items-center {
+    position: fixed;
+    padding: 1% 0px 10px 0px;
+    float: left;
+    background-color: #121335 !important;
+    background-color: #2A2D7D !important;
+    background-color: white !important;
+    
+}
 
-    }
-    .subnavbar.subnavbar-dark.bg-primary {
-        position: sticky;
-        width: 100%;
-        
-    }
-    .centerMenu {
-        text-align: center;
-    }
+/*-------------------------Title/Carousel Container--------------*/
+.firstTitle {
+    margin-top: 12rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
 
-    .centerNav {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding:2px;
-        padding-top:5px;
-    }
-    .navbar-brand {
-        padding-bottom:2rem;
-        padding-top: 1.8rem;
-    }
+.carousel {
+    height: 20%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+}
 
-    .introHollow {
-        margin-top: 12rem;
+.carousel-control-prev-icon {
+    background-image: none;
+}
+.carousel-control-next-icon {
+    background-image: none;
+}
+/*----------------------Video/Get Hollow Wines Contianer----------------*/
+.videoGet {
+    /*margin-top: 1rem;
         text-align: center;
         display: block;
         position: relative;
-        overflow: hidden;
-    }
+        overflow: hidden;*/
+    position: relative;
+    background: white;
+    overflow: hidden;
+}
 
-    .introHollow:before {
-        content: ' ';
-        display: block;
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 1;
-        opacity: 0.18;
-        background-image: url("images/grapes.jpg");
-        background-repeat: no-repeat;
-        background-position: 30% 0;
-        -ms-background-size: 70%;
-        padding-left: 20px;
+/*.videoGet:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+    background-image: url("images/grapes.jpg");
+    background-repeat: no-repeat;
+    background-position: 10% 0%;
+    -ms-background-size: 50%;
+    /*padding-left: 20px;
         padding-right: 20px;
+} */
 
+.videoGet img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.4;
+    background-position: 0% 0;
+    -ms-background-size: 70%;
+}
 
+.videoGet h2,
+.videoGet h3,
+.videoGet h4 {
+    padding: 10px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #000;
+}
+
+.videoGet h3 {
+    color: white;
+}
+
+.videoGet a {
+    opacity: 100%;
+    padding: 10px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    height: 50px;
+}
+
+.titleGet {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+
+/*--------------------------------3 REASONS FOR HOLLOW WINES---------------------------*/
+.iconFacts {
+    padding-top: 2rem;
+}
+
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+/* Button for the Lab Result Modal*/ 
+.btn-primary {
+    background-color: white !important;
+    border-color: #5A288A !important;
+    border: solid 4px;
+    width: 132px;
+    height: 170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infoIcon {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.threeFacts {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+/*------------------------------------Wines Section------------------------------------------*/
+.label {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+}
+
+.wineText {
+    padding-right: 5rem;
+}
+/*---------------------------------------Buy Section----------------------------------------*/
+.card-header {
+    background-color: #2a2d7c;
+}
+
+.centerButton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.buySection {
+    padding-top: 7rem;
+}
+
+/*-----------------------------Animations--------------------------------*/
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
     }
 
-    .titleHollow {
-        padding-top: 9rem;
-        padding-bottom: 6rem;
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn2 {
+    0% {
+        opacity: 0;
     }
 
-    @keyframes fadeIn {
-        0% {
-            opacity: 0;
-        }
-
-        100% {
-            opacity: 1;
-        }
+    30% {
+        opacity: 0%
     }
 
-    @keyframes fadeIn2 {
-        0% {
-            opacity: 0;
-        }
-
-        30% {
-            opacity: 0%
-        }
-
-        80% {
-            opacity: 50%;
-        }
-
-        100% {
-            opacity: 1;
-        }
+    80% {
+        opacity: 50%;
     }
 
-    @keyframes fadeIn3 {
-        0% {
-            opacity: 0;
-        }
+    100% {
+        opacity: 1;
+    }
+}
 
-        60% {
-            opacity: 0%
-        }
-
-        90% {
-            opacity: 80%;
-        }
-
-        100% {
-            opacity: 1;
-        }
+@keyframes fadeIn3 {
+    0% {
+        opacity: 0;
     }
 
-    .firstAnimate {
-        animation-name: fadeIn;
-        animation-delay: 0s;
-        animation-duration: 1.25s;
+    60% {
+        opacity: 0%
     }
 
-    .secondAnimate {
-        animation-name: fadeIn2;
-        animation-delay: 0s;
-        animation-duration: 2.75s;
+    90% {
+        opacity: 80%;
     }
 
-    .thirdAnimate {
-        animation-name: fadeIn3;
-        animation-delay: 0s;
-        animation-duration: 3.5s;
+    100% {
+        opacity: 1;
     }
+}
 
+.firstAnimate {
+    animation-name: fadeIn;
+    animation-delay: 0s;
+    animation-duration: 1.25s;
+}
+
+.secondAnimate {
+    animation-name: fadeIn2;
+    animation-delay: 0s;
+    animation-duration: 2.75s;
+}
+
+.thirdAnimate {
+    animation-name: fadeIn3;
+    animation-delay: 0s;
+    animation-duration: 3.5s;
+}
+
+/*----------------------------------Media Queries------------------------------*/
+/*---Small Screens---*/
+@media (max-width: 576px) {
     h1 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 48px;
-        color: #2a2d7c;
-        line-height: 4rem;
-        font-weight: 700;
+        font-size: 24px;
+        padding-left: 5px;
+        padding-right: 5px;
+        line-height: 26px;
     }
 
     h2 {
-        font-family: 'Roboto Slab', serif;
-        font-size: 21px;
-        font-weight: 400;
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 19px;
+        line-height: 18px;
     }
 
-    h3 {
-        font-family: 'montserrat', sans-serif;
-        font-size: 20px;
-    }
-
-    /* .black {
-        font-weight: 500;
-    }*/
-
-    .interActive {
-        padding: 3rem;
-    }
-
-    .btn-group-lg.btn,
-    .btn-lg {
-        padding-left: 1rem;
-        padding-right: 1rem;
-        width: 60%;
-        border-radius: 25px;
-        text-align: center;
-    }
-
-    .btn-warning {
-        background: rgb(28, 30, 82);
-        background: linear-gradient(rgba(55, 59, 163, 1) 0%, rgba(42, 45, 124, 1) 87%, rgba(28, 30, 82, 1) 100%);
-        border:solid 0px;
-    }
+    h3 {}
 
     .buttonText {
-        color: white;
-        font-size: 18px;
+        font-size: 12px;
     }
 
-    .purple {
-        color: #2a2d7c;
-    }
-
-    .bold {
-        font-weight: 800;
-    }
-
-    .large {
-        font-size: 21px;
-    }
-
-    .video {
-        padding-bottom: 3rem;
-    }
-
-    .small {
-        font-size: 15px;
-        line-height: 24px;
-    }
-
-    .center {
-        text-align: center;
-        padding-top: .5rem;
-    }
-
-    .backgroundPurple {
-        background-color: #2a2d7c;
-    }
-
-    .card-header {
-        background-color: #2a2d7c;
-
+    .lgScreen {
+        display: none;
     }
 
     .centerButton {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        padding-bottom: 1.5rem;
+        padding-top: 1rem;
+    }
+
+    .titleHollow {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .wineText {
+        text-align: center;
+        padding-right: 2rem;
+        padding-left: 2rem;
         padding-top: 1rem;
     }
 
     .label {
-        padding-left: 5rem;
-        padding-right: 5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
         padding-top: 2rem;
     }
-
-    .wineText {
-        padding-right: 5rem;
+    .video {
+        margin-bottom: 3rem;
+        opacity: 100% !important;
     }
+}
 
-    .buySection {
-        padding-top: 7rem;
+
+/*---Large Screens---*/
+@media (min-width: 577px) {
+    .smScreen {
+        display: none;
     }
-
-    .headline {
-        line-height: 32px;
-        font-size:24px;
-        font-weight:400;
-        padding-bottom: 2rem;
-    }
-
-    @media (max-width: 576px) {
-        h1 {
-            font-size: 24px;
-            padding-left: 5px;
-            padding-right: 5px;
-            line-height: 26px;
-        }
-
-        h2 {
-            font-size: 16px;
-            padding-left: 10px;
-            padding-right: 19px;
-            line-height: 18px;
-        }
-
-        h3 {}
-
-        .buttonText {
-            font-size: 12px;
-        }
-
-        .lgScreen {
-            display:none;
-        }
-    
-        .centerButton {
-            padding-bottom: 1.5rem;
-            padding-top: 1rem;
-        }
-
-        .titleHollow {
-            padding-top: 4rem;
-            padding-bottom: 4rem;
-        }
-
-        .wineText {
-            text-align: center;
-            padding-right: 2rem;
-            padding-left: 2rem;
-            padding-top: 1rem;
-        }
-
-        .label {
-            padding-left: 2rem;
-            padding-right: 2rem;
-            padding-top: 2rem;
-        }
-    }
-
-   /* @media (min-width: 577px) {
-        .smScreen {
-            display: none;
-        }
-    } */
 
     .wines {
         padding-top: 5rem;
     }
+
+    .videoGet {
+        height: 310px;
+    }
+}
