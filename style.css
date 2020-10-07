@@ -383,6 +383,8 @@ h5 {
 
 /*----------------------------------Media Queries------------------------------*/
 /*---Small Screens---*/
+
+
 @media (max-width: 575.98px) {
     h1 {
         font-size: 24px;
@@ -398,11 +400,27 @@ h5 {
         line-height: 18px;
     }
 
+    .videoGet h2.bold {
+        font-size: 17px;
+        font-weight: 900;
+        color: black;
+    }
+
     h3 {}
 
+    .btn-group-lg.btn,
+    .btn-lg {
+         width: 180px;
+         height: 18px;
+    }
+
+    .buttonText {
+        font-size: 14px;
+    }
+
     .headline {
-        line-height: 20px;
-        font-size: 20px;
+        line-height: 26px;
+        font-size: 22px;
         font-weight: 500;
         padding-bottom: 1rem;
     }
@@ -414,7 +432,7 @@ h5 {
     }
 
     .titleGet {
-        padding-top: 2rem;
+        padding-top: 1.5rem;
         padding-bottom: 1rem;
     }
 
@@ -428,23 +446,22 @@ h5 {
     }
 
     .carousel {
-        height: 15%; 
+        height: 12%; 
     }
 
     .videoGet {
         padding:auto;
     }
-
+/*---3facts---*/
     .threeFacts {
         padding-top: 0px;
     }
-    .buttonText {
-        font-size: 12px;
+
+    .infoIcon {
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
-    .lgScreen {
-        display: none;
-    }
 
     .centerButton {
         padding-bottom: 1rem;
