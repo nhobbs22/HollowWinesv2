@@ -451,14 +451,13 @@ h5 {
     }
 
     .titleGet {
-        padding-top: 1.5rem;
+        padding-top: 2rem;
         padding-bottom: .5rem;
     }
 
     .videoGet img{
         width: 345px;
         height: auto;
-        opacity: .2;
     }
 
     .video {
