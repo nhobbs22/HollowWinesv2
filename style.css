@@ -21,6 +21,8 @@ h1 {
     font-weight: 700; 
     color:#1A1C4D;
     color: #171945;
+    color: #2a2d7c;
+
 }
 
 h2 {
@@ -40,6 +42,15 @@ h4 {
     color: #2a2d7c;
     line-height: 3rem;
     font-weight: 700;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    color: white;
+    line-height: 1.75rem;
+    font-weight: 500;
+    color:black;
 }
 
 .purple {
@@ -89,6 +100,7 @@ h4 {
     align-items: center;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .btn-warning {
@@ -186,7 +198,6 @@ h4 {
 
 .videoGet img {
     position: absolute;
-    left: 0;
     top: 0;
     width: 100%;
     z-index: 1;
@@ -266,9 +277,16 @@ h4 {
 .wineText {
     padding-right: 5rem;
 }
+
+.label2 {
+    padding-right: 3rem;
+    padding-left:3rem;
+}
 /*---------------------------------------Buy Section----------------------------------------*/
 .card-header {
     background-color: #2a2d7c;
+    background: linear-gradient(rgba(79,82,179, 1) 0%, rgba(50,54,148, 1) 85%, rgba(38,41,112, 1) 100%, .3);
+    background-color: white;
 }
 
 .centerButton {
@@ -283,6 +301,21 @@ h4 {
     padding-top: 7rem;
 }
 
+.winePic {
+    padding-top: 1rem;
+    padding-bottom:2rem;
+}
+
+.black {
+    color: black;
+    font-size: 20px;
+}
+
+.red {
+    color: red;
+    font-weight: 700;
+    font-size:21px;
+}
 /*-----------------------------Animations--------------------------------*/
 @keyframes fadeIn {
     0% {
@@ -350,7 +383,7 @@ h4 {
 
 /*----------------------------------Media Queries------------------------------*/
 /*---Small Screens---*/
-@media (max-width: 576px) {
+@media (max-width: 575.98px) {
     h1 {
         font-size: 24px;
         padding-left: 5px;
@@ -367,6 +400,44 @@ h4 {
 
     h3 {}
 
+    .headline {
+        line-height: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        padding-bottom: 1rem;
+    }
+
+    .firstTitle {
+        margin-top: 6rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .titleGet {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .videoGet img{
+        width: 345px;
+        height: auto;
+    }
+
+    .video {
+        margin-bottom: 2rem;
+    }
+
+    .carousel {
+        height: 15%; 
+    }
+
+    .videoGet {
+        padding:auto;
+    }
+
+    .threeFacts {
+        padding-top: 0px;
+    }
     .buttonText {
         font-size: 12px;
     }
@@ -376,13 +447,8 @@ h4 {
     }
 
     .centerButton {
-        padding-bottom: 1.5rem;
+        padding-bottom: 1rem;
         padding-top: 1rem;
-    }
-
-    .titleHollow {
-        padding-top: 3rem;
-        padding-bottom: 3rem;
     }
 
     .wineText {
@@ -397,14 +463,27 @@ h4 {
         padding-right: 2rem;
         padding-top: 2rem;
     }
-    .video {
-        margin-bottom: 3rem;
-        opacity: 100% !important;
+    
+}
+/*---Landscape Phones---*/
+
+@media (min-width: 576px) { 
+    .videoGet {
+        height: 305px;
     }
 }
 
+@media (min-width: 768px) { 
+    .videoGet {
+        height: 305px;
+    }
 
-/*---Large Screens---*/
+ }
+
+ @media (min-width: 992px) { 
+
+}
+/*---Large Screens---
 @media (min-width: 577px) {
     .smScreen {
         display: none;
@@ -413,8 +492,4 @@ h4 {
     .wines {
         padding-top: 5rem;
     }
-
-    .videoGet {
-        height: 310px;
-    }
-}
+} */
