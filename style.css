@@ -528,10 +528,10 @@ h5 {
     }
 
     .card {
-        border: solid 1px;
+        border: solid 1.5px lightgray;
     }
     .card-header {
-        border-bottom: solid 1px;
+        border-bottom: solid 1.5px lightgray;
     }
 
     .smScreen {
