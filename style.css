@@ -394,7 +394,7 @@ h5 {
         font-size: 26px;
         padding-left: 5px;
         padding-right: 5px;
-        line-height: 30px;
+        line-height: 32px;
     }
 
     h2 {
@@ -405,10 +405,10 @@ h5 {
     }
 
     .logo {
-        width: 50%;
+        width: 70%;
     }
     .navbar-brand {
-        padding:.5rem;
+        padding:.75rem;
     }
 
     .videoGet h2.bold {
@@ -437,9 +437,9 @@ h5 {
     }
 
     .firstTitle {
-        margin-top: 7.5rem;
+        margin-top: 9rem;
         text-align: center;
-        margin-bottom: 3rem;
+        margin-bottom: 2.5rem;
     }
 
     .titleGet {
