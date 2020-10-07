@@ -272,6 +272,11 @@ h5 {
 .wines {
     padding-top: 5rem;
 }
+
+.wines h1 {
+    padding-bottom: 2rem;
+}
+
 .label {
     padding-left: 5rem;
     padding-right: 5rem;
@@ -417,7 +422,10 @@ h5 {
         color: black;
     }
 
-    h3 {}
+    .wines h1 {
+        padding-bottom: 0px;
+    }
+    
 
     .btn-group-lg.btn,
     .btn-lg, .btn-warning {
@@ -458,7 +466,7 @@ h5 {
     }
 
     .carousel {
-        height: 12%; 
+        height: 18%; 
     }
 
     .videoGet {
@@ -470,6 +478,9 @@ h5 {
         padding-bottom: 0px;
     }
 
+    .iconFacts {
+        padding-top: 20px;
+    }
     .infoIcon {
         padding-left: 5px;
         padding-right: 5px;
@@ -494,10 +505,6 @@ h5 {
     .smScBPad {
         padding-bottom: 20px;
     }
-    .centerButton {
-        padding-bottom: 1rem;
-        padding-top: 1rem;
-    }
 
     .wineText {
         text-align: center;
@@ -517,7 +524,14 @@ h5 {
     }
 
     .card-deck{
-        padding-top: 1rem;
+        padding-top: 2rem;
+    }
+
+    .card {
+        border: solid 1px;
+    }
+    .card-header {
+        border-bottom: solid 1px;
     }
 
     .smScreen {
@@ -525,8 +539,8 @@ h5 {
     }
 
     .centerButton {
-        padding-top: 0px;
-        padding-bottom: 0px;
+        padding-top: .25rem;
+        padding-bottom:.5rem;
     }
     
     #buysafeseal_1_img {
