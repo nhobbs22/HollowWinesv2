@@ -450,6 +450,7 @@ h5 {
     .videoGet img{
         width: 345px;
         height: auto;
+        opacity: .2;
     }
 
     .video {
@@ -466,20 +467,22 @@ h5 {
 /*---3facts---*/
     .threeFacts {
         padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     .infoIcon {
         padding-left: 5px;
         padding-right: 5px;
         padding-bottom: 40px;
+        text-align: center;
     }
 
     .modalLab {
-        width: 350px;
+        width: 325px;
     }
 
     .icon {
-        width:25%;
+        width:20%;
         padding-top: 10px;
         padding-bottom: 20px;
     }
@@ -508,7 +511,27 @@ h5 {
         padding-right: 2rem;
         padding-top: 2rem;
     }
+
+    .buySection {
+        padding-top: 4rem;
+    }
+
+    .card-deck{
+        padding-top: 1rem;
+    }
+
+    .smScreen {
+        display: none;
+    }
+
+    .centerButton {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
     
+    #buysafeseal_1_img {
+        width: 75%;
+    }
 }
 /*---Landscape Phones---*/
 
