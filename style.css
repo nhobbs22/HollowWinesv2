@@ -387,10 +387,10 @@ h5 {
 
 @media (max-width: 575.98px) {
     h1 {
-        font-size: 24px;
+        font-size: 26px;
         padding-left: 5px;
         padding-right: 5px;
-        line-height: 26px;
+        line-height: 30px;
     }
 
     h2 {
@@ -398,6 +398,13 @@ h5 {
         padding-left: 10px;
         padding-right: 19px;
         line-height: 18px;
+    }
+
+    .logo {
+        width: 35%;
+    }
+    .navbar-brand {
+        padding:.5rem;
     }
 
     .videoGet h2.bold {
@@ -409,11 +416,11 @@ h5 {
     h3 {}
 
     .btn-group-lg.btn,
-    .btn-lg {
-         width: 180px;
-         height: 18px;
+    .btn-lg, btn-warning {
+         height: 30px !important;
+         width:160px !important;
     }
-
+ 
     .buttonText {
         font-size: 14px;
     }
@@ -426,14 +433,14 @@ h5 {
     }
 
     .firstTitle {
-        margin-top: 6rem;
+        margin-top: 7rem;
         text-align: center;
-        margin-bottom: 1.5rem;
+        margin-bottom: 2.5rem;
     }
 
     .titleGet {
         padding-top: 1.5rem;
-        padding-bottom: 1rem;
+        padding-bottom: .5rem;
     }
 
     .videoGet img{
@@ -460,9 +467,26 @@ h5 {
     .infoIcon {
         padding-left: 5px;
         padding-right: 5px;
+        padding-bottom: 30px;
     }
 
+    .modalLab {
+        width: 350px;
+    }
 
+    .icon {
+        width:25%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .smScTitle {
+        font-weight: 600;
+    }
+
+    .smScBPad {
+        padding-bottom: 10px;
+    }
     .centerButton {
         padding-bottom: 1rem;
         padding-top: 1rem;
