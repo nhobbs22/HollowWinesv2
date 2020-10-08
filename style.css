@@ -500,7 +500,7 @@ h5 {
     }
 
     .icon {
-        width:20%;
+        height:100px;
         padding-top: 10px;
         padding-bottom: 20px;
     }
@@ -582,6 +582,12 @@ h5 {
         line-height: 16px;
     }
 
+    .logo {
+        width: 70%;
+    }
+    .navbar-brand {
+        padding:.75rem;
+    }
     .list-unstyled {
         font-size: 12px;
     }
@@ -610,6 +616,14 @@ h5 {
         display: none;
     }
 
+    .threeFacts {
+        padding-top: none;
+    }
+
+    .titleGet { 
+        padding-bottom: none;
+    }
+    
     .wines.smScreen {
         display: block;
     }
