@@ -556,7 +556,7 @@ h5 {
 }
 /*---Landscape Phones---*/
 
-@media (min-width: 576px) and (max-width:768px) { 
+@media (min-width: 576px) and (max-width:767.98px) { 
     
     h1 {
         font-size: 26px;
@@ -607,7 +607,15 @@ h5 {
     }
     
     .smScreen {
+        display: none;
+    }
+
+    .wines.smScreen {
         display: block;
+    }
+
+    .mdHide{
+        display: none;
     }
 
     .wineText{
@@ -632,15 +640,17 @@ h5 {
     }
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) and (max-width: 991.98px) { 
     .videoGet {
-        height: 305px;
+        height:186px
     }
 
  }
 
  @media (min-width: 992px) { 
-
+    .videoGet {
+        height:305px;
+    }
 }
 /*---Large Screens---
 @media (min-width: 577px) {
