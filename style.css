@@ -623,7 +623,7 @@ h5 {
     .titleGet { 
         padding-bottom: none;
     }
-    
+
     .wines.smScreen {
         display: block;
     }
@@ -650,7 +650,7 @@ h5 {
     .btn-group-lg.btn,
     .btn-lg, .btn-warning {
          height: 40px !important;
-         width:160px !important;
+         width:180px !important;
     }
 }
 
@@ -664,6 +664,12 @@ h5 {
  @media (min-width: 992px) { 
     .videoGet {
         height:305px;
+    }
+}
+
+@media (min-width: 1300px){
+    .firstTitle {
+     margin-top: 15rem;   
     }
 }
 /*---Large Screens---
