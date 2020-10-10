@@ -665,12 +665,21 @@ h5 {
     .videoGet {
         height:305px;
     }
+
+    .card-deck {
+        padding-top: 3rem;
+    }
 }
 
 @media (min-width: 1300px){
     .firstTitle {
      margin-top: 15rem;   
     }
+
+    .card-deck {
+        padding-top: 3rem;
+    }
+
 }
 /*---Large Screens---
 @media (min-width: 577px) {
